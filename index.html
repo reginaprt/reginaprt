@@ -1,0 +1,364 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Reginaprt</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  </head>
+  <style>
+
+    body {
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      color: #444444;
+    }
+    .navbar-nav{
+      padding-left: 320px;
+    }
+    .nav-item{
+      margin-left: 15px;
+      margin-right: 15px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      color: #222222;
+    }
+    .nav-link{
+      font: bold;
+    }
+    .hero h1 {
+      position: absolute;
+      top: 40%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-family: 'Roboto Mono', monospace;
+      color: #21201e;
+    }
+    .hero h2 {
+      font-family: 'Roboto Mono', monospace;
+      font-weight: 300;
+      font-size: medium;
+      position: absolute;
+      top: 48%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+    }
+    #about{
+      padding-top: 25px;
+    }
+    .about .col-md-6{
+      transition: 1,5s;
+    }
+    .section-title{
+      text-align: center;
+      padding-bottom: 25px;
+      padding-top: 25px;
+    }
+    .img-rounded-custom{
+      align-items: center;
+    }
+    table{
+      margin-left: 100px;
+      font-size: medium;
+      justify-content: center;
+    }
+    h3{
+      margin-bottom: 25px;
+    }
+    td{
+      padding-bottom: 15px;
+    }
+
+    /* SKILL */
+
+  /* EDUCATION */
+  .education-item{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+  }
+
+  /* CONTACT */
+  .contact{
+    background-color: #f5efee;  
+    padding: 110px;
+  }
+  .contact img{
+    height: 55px;
+    width: 55px;
+    align-content: center;
+  }
+  .contact h5{
+    text-align: center;
+    padding: 20px;
+  }
+
+  /* PORTOFOLIO */
+  .portofolio{
+    background-color: #f5efee;  
+    padding: 50px;
+  }
+  
+
+
+
+
+
+  </style>
+  <body>
+    
+    <!-- NAVBAR -->
+    <nav id="navbar-custom" class="navbar navbar-expand-lg fixed-top" >
+      <div class="container">
+        <div class="container-fluid d-flex justify-content-between align-items-center text-dark">
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                 <a class="nav-link" href="#portofolio">Portofolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#education">Education</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>             
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    
+    <section id="home">
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" >
+        <div class="carousel-inner" data-aos-delay="100">
+          <div class="carousel-item active">
+            <div class="hero" class="d-flex align-items-center">
+              <div class="container d-flex flex-column align-items-center" >
+                <h1>Regina Almalia Pratiwi</h1>
+                <h2>I'm a student of Suryakancana University</h2>
+              </div>
+            </div>
+              <img src="asset/img/pantai2.jpg" class="d-block w-100 " alt="asset/pantai2.jpg" height="625px">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="about" data-aos="fade-up">
+      <div class="container">
+          <h1 class="text-center" style="padding-top: 25px; padding-bottom: 50px;" data-aos="fade-up">About</h1>
+          <div class="row" style="padding-bottom:50px" >
+              <div class="col-md-6">
+                  <h3 style="margin-left: 50px;" data-aos="fade-up">Biodata</h3>
+                      <table data-aos="fade-up">
+                        <tr>
+                          <td>Name</td>
+                          <td>:</td>
+                          <td>Regina Almalia Pratiwi</td>
+                        </tr>
+                        <tr>
+                          <td>Tempat, Tanggal Lahir</td>
+                          <td>:</td>
+                          <td>Cianjur, 23 Juni 2002</td>
+                        </tr>
+                        <tr>
+                          <td>Alamat</td>
+                          <td>:</td>
+                          <td>Sindangbarang, Cianjur</td>
+                        </tr>
+                        <tr>
+                          <td>Jenis Kelamin</td>
+                          <td>:</td>
+                          <td>Perempuan</td>
+                        </tr>
+                        <tr>
+                          <td>Agama</td>
+                          <td>:</td>
+                          <td>Islam</td>
+                        </tr>
+                        <tr>
+                          <td>Nomor</td>
+                          <td>:</td>
+                          <td>081214555460</td>
+                        </tr>
+                        <tr>
+                          <td>Email</td>
+                          <td>:</td>
+                          <td>reginaap999@gmail.com</td>
+                        </tr>
+                      </table>
+              </div>
+              <div class="col-md-6" data-aos="fade-up">
+                  <img src="asset/img/foto aku.jpg" class="img-rounded mx-auto d-block" width="75%"/>
+              </div>
+          </div>
+      </div>
+  </section>  
+
+  <!-- PORTOFOLIO -->
+  <section id="portofolio" class="portofolio">
+    <div class="container">
+      <h1 class="text-center" style="padding-top: 25pxpx; padding-bottom: 15px;" data-aos="fade-up">Portofolio</h1>
+      <div class="row" data-aos="fade-up">
+        <div class="col-md-4" style="padding-bottom: 50px;">
+          <div class="card" style="width: 18rem;">
+            <img src="asset/img/re1.jpg" class="card-img-top" alt="...">
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card" style="width: 18rem;">
+            <img src="asset/img/re2.jpg" class="card-img-top" alt="...">
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card" style="width: 18rem;">
+            <img src="asset/img/re3.jpg" class="card-img-top" alt="...">
+          </div>
+        </div>
+        <div class="row" data-aos="fade-up">
+        <div class="col-md-4">
+          <div class="card" style="width: 18rem;">
+            <img src="asset/img/re4.jpg" class="card-img-top" alt="...">
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card" style="width: 18rem;">
+            <img src="asset/img/re5.jpg" class="card-img-top" alt="...">
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card" style="width: 18rem;">
+            <img src="asset/img/re7.jpg" class="card-img-top" alt="...">
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- EDUCATION -->
+  <section id="education" class="education" data-aos="fade-up">
+    <div class="container">
+      <div class="row" style="padding-bottom:50px">
+        <div class="section-title">
+          <h2>Education</h2>
+          <p>Berikut beberapa sekolah yang pernah saya tempati untuk menimba ilmu.</p>
+        </div>
+        <div class="col-lg-6" data-aos="fade-up">
+          <div class="education-item">
+            <h4>Taman Kanak - Kanak</h4>
+            <h5>2007 - 2008</h5>
+            <p><em>Taman Kanak - Kanak Pertiwi</em></p>
+            <p>Sekolah TK Pertiwi berada di Sindangbarang, Cianjur Selatan</p>
+            <p>Organisasi : -</p>
+          </div>
+
+          <div class="education-item" data-aos="fade-up">
+            <h4>Sekolah Dasar</h4>
+            <h5>2008 - 2014</h5>
+            <p><em>SD Negeri Mekarlaksana</em></p>
+            <p>Sekolah SD Negeri Mekarlaksana berada di Sindangbarang, Cianjur Selatan</p>
+            <p>Organisasi : -</p>
+          </div>
+        </div>
+
+        <div class="col-lg-6" data-aos="fade-up">
+          <div class="education-item">
+            <h4>Sekolah Menengah Pertama</h4>
+            <h5>2014 - 2017</h5>
+            <p><em>SMP Negeri 1 Sindangbarang</em></p>
+            <p>Sekolah SMP Negeri 1 Sindangbarang berada di Sindangbarang, Cianjur Selatan.</p>
+            <p>Organisasi : OSIS SMP Negeri 1 Sindangbarang</p>
+          </div>
+          
+          <div class="education-item" data-aos="fade-up">
+            <h4>Sekolah Menengah Atas</h4>
+            <h5>2017 - 2020</h5>
+            <p><em>SMA Negeri 1 Sindangbarang </em></p>
+            <p>Sekolah SMA Negeri 1 Sindangbarang berada di Sindangbarang, Cianjur Selatan.</p>
+              <p>Organisasi : Paskibra SMA Negeri 1 Sindangbarang</p>
+          </div>
+        </div>
+      </div>
+      </div>
+        
+      </div>
+
+  <!-- CONTACT -->
+  <section id="contact" class="contact">
+    <div class="container" data-aos="fade-up">
+        <h1 class="text-center" style="padding-bottom:30px;">Contact</h1>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                      <img src="asset/img/instagram.png"  class="img-rounded mx-auto d-block" alt="asset/img/instagram.jpg">
+                        <h5 class="card-title">Instagram</h5>
+                        <a link="" href="https://www.instagram.com/reginaprt/" class="btn btn-primary mx-auto d-block">Kunjungi</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                      <img src="asset/img/twitter.png"  class="img-rounded mx-auto d-block " alt="asset/img/twitter.jpg">
+                        <h5 class="card-title">twitter</h5>
+                        <a link="" href="https://twitter.com/home" class="btn btn-primary mx-auto d-block">Kunjungi</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="asset/img/whatsapp.png" class="img-rounded mx-auto d-block" alt="asset/img/wh.jpg">
+                        <h5 class="card-title">whatsapp</h5>
+                        <a link="" href="https://web.whatsapp.com/" class="btn btn-primary mx-auto d-block">Kunjungi</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+  <!-- FOOTER -->
+  <div class="container-fluid" style="padding-top:15px">
+    <div class="row">
+        <p class="text-center">Copyright@2022</p>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+      AOS.init();
+      let navbar = document.getElementById('navbar-custom');
+
+      window.addEventListener('scroll', function(){
+          let scroll = window.scrollY;
+
+          if (scroll > 50) {
+              navbar.classList.remove('navbar-dark');
+              navbar.classList.add('bg-light');
+          } else {
+              navbar.classList.remove('bg-light');
+          }
+      })
+  </script>
+
+  <!-- JavaScript Files -->
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  <script src="./js/mixitup.min.js"></script>
+  <script src="./js/app.js"></script>
+</body>
+</html>
